@@ -23,3 +23,8 @@ letter-spacing: 0.08em;
   object-fit: cover;
   border-radius: 12px;
 }
+
+/* IMAGES BACKGROUND */
+.background {
+  background-color: black
+}

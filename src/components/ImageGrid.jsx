@@ -1,7 +1,8 @@
 import React from "react";
+import { Container, Row, Col, Ratio } from "react-bootstrap";
 
 const ImageGrid = () => {
-  return <div>ImageGrid</div>;
+  return <div></div>;
 };
 
 export default ImageGrid;
