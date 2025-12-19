@@ -96,3 +96,5 @@ const characterData = [
     emoji: "🍂",
   },
 ];
+
+export default characterData;

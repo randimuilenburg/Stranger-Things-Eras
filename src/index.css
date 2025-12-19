@@ -24,6 +24,35 @@ letter-spacing: 0.08em;
   border-radius: 12px;
 }
 
+/* IMAGE GRID */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+
+  /* This is the key to no scrolling */
+  height: calc(100vh - 120px); /* subtract header height */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.character-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.character-image:hover {
+  filter: grayscale(100%);
+  transform: scale(1.02);
+}
+
+
 /* IMAGES BACKGROUND */
 .background {
   background-color: black
