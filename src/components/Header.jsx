@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <h1 className="header">
-        Select a Stranger Things character, get a Taylor Swift Era:
+        Pick a Stranger Things character, learn your Taylor Swift Era:
       </h1>
     </div>
   );

@@ -4,7 +4,7 @@ const characterData = [
     name: "Mike Wheeler",
     era: "1989",
     color: "#83b9eeff",
-    photo: "/images/Mike.jpg",
+    photo: "/images-16x9/Mike.jpg",
     emoji: "🕶️",
   },
   {
@@ -12,7 +12,7 @@ const characterData = [
     name: "Eleven",
     era: "The Life of a Showgirl",
     color: "#f73e05f3",
-    photo: "/images/Eleven.jpg",
+    photo: "/images-16x9/Eleven.jpg",
     emoji: "❤️‍🔥",
   },
   {
@@ -20,7 +20,7 @@ const characterData = [
     name: "Will Byers",
     era: "Midnights",
     color: "#030247f3",
-    photo: "/images/Will.jpg",
+    photo: "/images-16x9/Will.jpg",
     emoji: "⭐",
   },
   {
@@ -28,7 +28,7 @@ const characterData = [
     name: "Dustin Henderson",
     era: "Lover",
     color: "#f54b8cf3",
-    photo: "/images/Dustin.jpg",
+    photo: "/images-16x9/Dustin.jpg",
     emoji: "🩷",
   },
   {
@@ -36,7 +36,7 @@ const characterData = [
     name: "Lucas Sinclair",
     era: "Speak Now",
     color: "#780aacf3",
-    photo: "/images/Lucas.jpg",
+    photo: "/images-16x9/Lucas.jpg",
     emoji: "✨",
   },
   {
@@ -44,7 +44,7 @@ const characterData = [
     name: "Max Mayfield",
     era: "Reputation",
     color: "#0c0c0cff",
-    photo: "/images/Max.jpg",
+    photo: "/images-16x9/Max.jpg",
     emoji: "🐍",
   },
   {
@@ -52,7 +52,7 @@ const characterData = [
     name: "Steve Harrington",
     era: "Red",
     color: "#c90909ff",
-    photo: "/images/Steve.jpg",
+    photo: "/images-16x9/Steve.jpg",
     emoji: "🧣",
   },
   {
@@ -60,7 +60,7 @@ const characterData = [
     name: "Nancy Wheeler",
     era: "folklore",
     color: "#777272ff",
-    photo: "/images/Nancy.jpg",
+    photo: "/images-16x9/Nancy.jpg",
     emoji: "🪩",
   },
   {
@@ -68,7 +68,7 @@ const characterData = [
     name: "Jonathan Byers",
     era: "Taylor Swift (Debut/Self-Titled)",
     color: "#1ce73eff",
-    photo: "/images/Jonathan.jpg",
+    photo: "/images-16x9/Jonathan.jpg",
     emoji: "🐎",
   },
   {
@@ -76,7 +76,7 @@ const characterData = [
     name: "Robin Buckley",
     era: "Fearless",
     color: "#bbb806ff",
-    photo: "/images/Robin.jpg",
+    photo: "/images-16x9/Robin.jpg",
     emoji: "🫶🏼",
   },
   {
@@ -84,7 +84,7 @@ const characterData = [
     name: "Billy Hargrove",
     era: "The Tortured Poets Department",
     color: "#ffffffff",
-    photo: "/images/Billy.jpg",
+    photo: "/images-16x9/Billy.jpg",
     emoji: "🖋️",
   },
   {
@@ -92,7 +92,7 @@ const characterData = [
     name: "Eddie Munson",
     era: "evermore",
     color: "#b86b3fff",
-    photo: "/images/Eddie.jpg",
+    photo: "/images-16x9/Eddie.jpg",
     emoji: "🍂",
   },
 ];

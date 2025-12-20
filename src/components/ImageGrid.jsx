@@ -5,7 +5,14 @@ const ImageGrid = ({ characters }) => {
   return (
     <div className="image-grid">
       {characters.map((character) => (
-        <img key={character.id} src={character.photo} alt={character.name} />
+        <div className="image-tile" key={character.id}>
+          <img
+            className="character-image"
+            key={character.id}
+            src={character.photo}
+            alt={character.name}
+          />
+        </div>
       ))}
     </div>
   );
