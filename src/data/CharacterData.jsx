@@ -26,10 +26,10 @@ const characterData = [
   {
     id: 4,
     name: "Dustin Henderson",
-    era: "Lover",
-    color: "#f54b8cf3",
+    era: "evermore",
+    color: "#b86b3fff",
     photo: "/images-16x9/Dustin.jpg",
-    emoji: "🩷",
+    emoji: "🍂",
   },
   {
     id: 5,
@@ -90,10 +90,10 @@ const characterData = [
   {
     id: 12,
     name: "Eddie Munson",
-    era: "evermore",
-    color: "#b86b3fff",
+    era: "Lover",
+    color: "#f54b8cf3",
     photo: "/images-16x9/Eddie.jpg",
-    emoji: "🍂",
+    emoji: "🩷",
   },
 ];
 

@@ -11,6 +11,7 @@ const ImageGrid = ({ characters }) => {
             key={character.id}
             src={character.photo}
             alt={character.name}
+            // onClick={onClick}
           />
         </div>
       ))}
