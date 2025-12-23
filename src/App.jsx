@@ -6,15 +6,12 @@ import ImageGrid from "./components/ImageGrid";
 
 // const [selectedCharacter, setSelectedCharacter] = useState(null);
 
-// FIX THIS
 function App() {
   return (
     <div>
+      <Header />
       <Routes>
-        <>
-          <Header />
-          <ImageGrid characters={characterData} />
-        </>
+        <Route path="/" element={<ImageGrid characters={characterData} />} />
       </Routes>
     </div>
   );
