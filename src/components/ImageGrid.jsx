@@ -1,18 +1,24 @@
 import React from "react";
-// import { Container, Row, Col, Ratio } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-const ImageGrid = ({ characters }) => {
+const ImageGrid = ({ characters, onSelect }) => {
   return (
     <div className="image-grid">
       {characters.map((character) => (
         <div className="image-tile" key={character.id}>
-          <img
-            className="character-image"
+          <Link
             key={character.id}
-            src={character.photo}
-            alt={character.name}
-            // onClick={onClick}
-          />
+            to={`/character/${character.slug}`}
+            className="character-link"
+          >
+            <img
+              className="character-image"
+              // key={character.id}
+              src={character.photo}
+              alt={character.name}
+              // onClick={onClick}
+            />
+          </Link>
         </div>
       ))}
     </div>

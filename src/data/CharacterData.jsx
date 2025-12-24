@@ -6,6 +6,7 @@ const characterData = [
     color: "#83b9eeff",
     photo: "/images-16x9/Mike.jpg",
     emoji: "🕶️",
+    slug: "mike",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const characterData = [
     color: "#f73e05f3",
     photo: "/images-16x9/Eleven.jpg",
     emoji: "❤️‍🔥",
+    slug: "eleven",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const characterData = [
     color: "#030247f3",
     photo: "/images-16x9/Will.jpg",
     emoji: "⭐",
+    slug: "will",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const characterData = [
     color: "#b86b3fff",
     photo: "/images-16x9/Dustin.jpg",
     emoji: "🍂",
+    slug: "dustin",
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const characterData = [
     color: "#780aacf3",
     photo: "/images-16x9/Lucas.jpg",
     emoji: "✨",
+    slug: "dustin",
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const characterData = [
     color: "#0c0c0cff",
     photo: "/images-16x9/Max.jpg",
     emoji: "🐍",
+    slug: "max",
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const characterData = [
     color: "#c90909ff",
     photo: "/images-16x9/Steve.jpg",
     emoji: "🧣",
+    slug: "steve",
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const characterData = [
     color: "#777272ff",
     photo: "/images-16x9/Nancy.jpg",
     emoji: "🪩",
+    slug: "nancy",
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const characterData = [
     color: "#1ce73eff",
     photo: "/images-16x9/Jonathan.jpg",
     emoji: "🐎",
+    slug: "jonathan",
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const characterData = [
     color: "#bbb806ff",
     photo: "/images-16x9/Robin.jpg",
     emoji: "🫶🏼",
+    slug: "robin",
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ const characterData = [
     color: "#ffffffff",
     photo: "/images-16x9/Billy.jpg",
     emoji: "🖋️",
+    slug: "billy",
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ const characterData = [
     color: "#f54b8cf3",
     photo: "/images-16x9/Eddie.jpg",
     emoji: "🩷",
+    slug: "eddie",
   },
 ];
 
