@@ -42,7 +42,7 @@ const characterData = [
     color: "#780aacf3",
     photo: "/images-16x9/Lucas.jpg",
     emoji: "✨",
-    slug: "dustin",
+    slug: "lucas",
   },
   {
     id: 6,
