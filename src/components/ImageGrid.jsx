@@ -13,10 +13,9 @@ const ImageGrid = ({ characters, onSelect }) => {
           >
             <img
               className="character-image"
-              // key={character.id}
               src={character.photo}
               alt={character.name}
-              // onSelect={onselect}
+              // onClick={onClick}
             />
           </Link>
         </div>

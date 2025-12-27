@@ -9,15 +9,17 @@ function App() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
   return (
     <div className="appPage">
-      <Header />
       <Routes>
         <Route
           path="/"
           element={
-            <ImageGrid
-              characters={characterData}
-              onSelect={setSelectedCharacter}
-            />
+            <>
+              <Header />
+              <ImageGrid
+                characters={characterData}
+                onClick={setSelectedCharacter}
+              />
+            </>
           }
         />
         {/* <Route
