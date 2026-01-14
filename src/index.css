@@ -51,6 +51,45 @@ margin: 0;
 }
 
 /* RESULTS PAGE */
-.eras-header {
+.results-header {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 1px -1px 0 #000;
+}
+
+.results-image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 460px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  outline: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.results-songs {
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 0.25rem;
+  list-style: disc;
+  width: fit-content;
+  margin: 2rem auto 0;  
+  padding-left: 1.25rem; 
+}
+
+.single-song {
+  position: static;
+  display: list-item;
+  padding-left: 18px;
+  margin: 0.4rem 0;
 }
