@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import characterData from "../data/CharacterData";
 // import ImageGrid from "./ImageGrid";
 import BackButton from "./BackButton";
+import EmojiRain from "./EmoijiRain";
 
 function ResultsPage() {
   const { slug } = useParams();
@@ -13,10 +14,12 @@ function ResultsPage() {
   return (
     <div>
       <BackButton />
+      <EmojiRain emoji={character.emoji} />
       <h1 className="results-header" style={{ color: character.color }}>
         {character.era}
       </h1>
       <img className="results-image" src={character.photo} />
+      <h7 className="songs-header">Top Tracks:</h7>
       <ul className="results-songs">
         {character.songs.map((song) => (
           <li className="single-song">{song}</li>
