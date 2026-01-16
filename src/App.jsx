@@ -24,11 +24,11 @@ function App() {
             </>
           }
         />
-        {/* <Route
+        <Route
           path="/character/:slug"
           element={<ResultsPage characters={characterData} />}
         />
-        <Route path="/character/:slug" element={<BackButton />} /> */}
+        {/* <Route path="/character/:slug" element={<BackButton />} /> */}
       </Routes>
     </div>
   );

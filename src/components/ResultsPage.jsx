@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import characterData from "../data/CharacterData";
-// import ImageGrid from "./ImageGrid";
+import ImageGrid from "./ImageGrid";
 import BackButton from "./BackButton";
 
 function ResultsPage() {
