@@ -1,12 +1,22 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const BackButton = () => {
+function BackButton() {
+  const navigate = useNavigate();
   return (
     <div>
-      <Button variant="outline-dark">Back</Button>
+      <Button
+        className="button"
+        size="sm"
+        variant="outline-danger"
+        onClick={() => navigate(-1)}
+      >
+        Back
+      </Button>
     </div>
   );
-};
+}
 
 export default BackButton;

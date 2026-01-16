@@ -93,3 +93,9 @@ margin: 0;
   padding-left: 18px;
   margin: 0.4rem 0;
 }
+
+/* BACK BUTTON */
+.btn.button {
+  margin-left: 0.25rem;
+  margin-top: 0.25rem;
+}
