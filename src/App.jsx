@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import characterData from "./data/CharacterData";
 import ImageGrid from "./components/ImageGrid";
 import ResultsPage from "./components/ResultsPage";
+import BackButton from "./components/BackButton";
 
 function App() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
@@ -23,10 +24,11 @@ function App() {
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/character/:slug"
           element={<ResultsPage characters={characterData} />}
         />
+        <Route path="/character/:slug" element={<BackButton />} /> */}
       </Routes>
     </div>
   );

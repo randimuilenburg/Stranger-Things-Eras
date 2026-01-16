@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import characterData from "../data/CharacterData";
-import ImageGrid from "./ImageGrid";
+// import ImageGrid from "./ImageGrid";
+import BackButton from "./BackButton";
 
 function ResultsPage() {
   const { slug } = useParams();
@@ -11,6 +12,7 @@ function ResultsPage() {
 
   return (
     <div>
+      <BackButton />
       <h1 className="results-header" style={{ color: character.color }}>
         {character.era}
       </h1>
