@@ -7,8 +7,8 @@ const characterData = [
     photo: "/images-16x9/Mike.jpg",
     songs: [
       "All You Had To Do Was Stay",
-      "How You Get The Girl",
-      "Say Don't Go",
+      "I Wish You Would",
+      "Now That We Don't Talk",
     ],
     emoji: "🚲",
     slug: "mike",
