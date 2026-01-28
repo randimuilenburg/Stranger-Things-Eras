@@ -39,7 +39,7 @@ const characterData = [
     era: "evermore",
     color: "#b86b3fff",
     photo: "/images-16x9/Dustin.jpg",
-    songs: ["dorothea", "cowboy like me", "marjorie"],
+    songs: ["cowboy like me", "marjorie", "closure"],
     emoji: "🍂",
     slug: "dustin",
   },
