@@ -5,7 +5,6 @@ function EmojiRain({ emoji }) {
     <div className="emoji-rain">
       {Array.from({ length: count }).map((_, i) => (
         <span
-          //   key={i}
           className="emojis-fall"
           style={{
             left: `${Math.random() * 100}%`,

@@ -28,7 +28,6 @@ function App() {
           path="/character/:slug"
           element={<ResultsPage characters={characterData} />}
         />
-        {/* <Route path="/character/:slug" element={<BackButton />} /> */}
       </Routes>
     </div>
   );

@@ -19,7 +19,7 @@ function ResultsPage() {
         {character.era}
       </h1>
       <img className="results-image" src={character.photo} />
-      <h7 className="songs-header">Top Tracks:</h7>
+      <h6 className="songs-header">Top Tracks:</h6>
       <ul className="results-songs">
         {character.songs.map((song) => (
           <li className="single-song">{song}</li>
